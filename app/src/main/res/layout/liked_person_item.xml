@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:paddingBottom="10dp">
+
+    <!--     Imagen de la persona (puedes agregarla si es necesario) -->
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Nombre de la persona -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Nombre de la persona"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+</LinearLayout>
